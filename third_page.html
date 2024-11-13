@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Разработка</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html#Int">Введение</a></li>
+          <li><a href="./index.html#Inst">Инструменты</a></li>
+          <li><a href="./index.html#Lang">Языки</a></li>
+          <li><a href="./second_page.html">Перейти на 2ю страницу</a></li>
+          <li><a href="./third_page.html">Оставить комментарий</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <br />
+      <form action="" method="get">
+        <h1>Заполните форму для комментария</h1>
+        <label>
+          Имя
+          <input type="text" placeholder="Введите имя" name="user_name" />
+        </label>
+        <br />
+        <br />
+        <label>
+          Фамилия
+          <input
+            type="text"
+            placeholder="Введите фамилию"
+            name="user_surname"
+          />
+        </label>
+        <br />
+        <br />
+        <label>
+          Почта
+          <input type="email" placeholder="Введите почту" name="user_email" />
+        </label>
+        <br />
+        <br />
+        <label>
+          Дата рождения
+          <input
+            type="date"
+            placeholder="Введите дату рождения"
+            name="user_birthday"
+          />
+        </label>
+        <br />
+        <br />
+        <label>
+          Количество лет в в сфере Frontend-разработки
+          <input
+            type="number"
+            placeholder="Введите количество лет в сфере Frontend-разработки"
+            name="user_experience"
+          />
+        </label>
+        <br />
+        <br />
+        <label for="comment">Напиши комментарий</label>
+        <br />
+        <textarea id="comment" cols="40" rows="5"></textarea>
+        <br />
+        <br />
+        <input type="submit" />
+      </form>
+    </main>
+    <footer>
+      <nav>
+        <a href="./second_page.html">Перейти на 2ю страницу</a>
+        <a href="./third_page.html">Оставить комментарий</a>
+      </nav>
+      <p>Контактная информация</p>
+      <address>
+        Телефон горячей линии:
+        <a href="tel:+7 800 000 00 00">+7 800 000 00 00</a>
+      </address>
+      <address>
+        Электронная почта:
+        <a href="mailto:frontend_developer@mail.com"
+          >frontend_developer@mail.com</a
+        >
+      </address>
+    </footer>
+  </body>
+</html>
